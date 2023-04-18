@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+button{
+    background-color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:not(.visit-button):hover{
+    border: 1px solid #5E3BEE;
+    color: #5E3BEE;
+    background-color: white;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 4%;
+    gap: 20%;
+}
+
+header img{
+    width: 140px;
+    height: 30px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: auto;
+    flex: 1;
+}
+
+.header__nav a{
+    margin: 0% 1%;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav a:visited{
+    color: inherit;
+}
+
+.header__nav a:hover{
+    color: #5E3BEE;
+    cursor: pointer;
+}
+
+main > div{
+    padding: 5% 3%;
+}
+
+main > #home{
+    display: flex;
+    background-color: #F5FCFF;
+}
+
+main > #home > div{
+    margin-top: 3%;
+    padding: 5% 1%;
+}
+
+main > #home > div > h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main > #home > div > h1 > span{
+    color: #5E3BEE;
+}
+
+main > #home > div > p{
+    margin-right: 20%;
+}
+
+main > #home > div > button{
+    margin-top: 6%;
+}
+
+main > #home > img{
+    width: 60%;
+    height: auto;
+}
+
+main > #expertise > div{
+    display: flex;
+    gap: 6%;
+}
+
+main > #expertise > h1{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+main > #expertise > div > div{
+    background-color: #F5FCFF;
+    border-bottom: 4px solid #F5FCFF;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+main > #expertise > div > div:hover{
+    border-bottom: 4px solid #5E3BEE;
+}
+
+main > #expertise > div > div > h2{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+main > #expertise > div > div p{
+    margin-right: 12%
+}
+
+main > #expertise div div div{
+    padding: 3%;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+main > #expertise > div > div > div >  img{
+    width: 40px;
+    height: 40px;
+}
+
+main > #aboutme{
+    display: flex;
+    flex-direction: row;
+}
+
+main > #aboutme > img{
+    width: 40%;
+    height: auto;
+}
+
+main > #aboutme > div{
+    margin: 10% 10% 10% 5%;
+    padding: 5% 1%;
+}
+
+main > #aboutme > div > section > h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main > #portfolio > div:nth-of-type(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > #portfolio > div > div > h1{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.visit-button{
+    border: 1px solid #E62872;
+    background-color: #E62872;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.visit-button:hover{
+    cursor: pointer;
+}
+
+.visit-button > img{
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+main > #portfolio > div:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+main > #portfolio > div:nth-of-type(2) > div{
+    box-shadow: 4px 4px 10px 0 black;
+    border-radius: 10px;
+    width: 25%;
+} 
+
+main > #portfolio > div:nth-of-type(2) > div > img{
+    max-width: 100%;
+    max-height: auto;
+} 
+
+main > #portfolio > div:nth-of-type(2) > div > *:not(img){
+    margin: 5%;
+} 
+
+main > #portfolio > div:nth-of-type(2) > div > div{
+    width: fit-content;
+} 
+
+main > #testimonials{
+    background-color: #F5FCFF;
+}
+
+main > #testimonials > h1{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+main > #testimonials > div{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    justify-content: center;
+}
+
+main > #testimonials > div > div{
+    border: 1px solid #006B6A;
+    border-radius: 10px;
+    padding: 1% 2%;
+}
+
+main > #testimonials > div > div > *{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+main > #testimonials > div > div > div:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+main > #testimonials > div > div > div:nth-of-type(2) > img{
+    width: 50px;
+    height: 50px;
+}
+
+main > #contact{
+    padding-top: 8%;
+}
+
+main > #contact > div:nth-of-type(1){
+    text-align: center;
+}
+
+main > #contact > div:nth-of-type(1) > h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+main > #contact form{
+    width: 50%;
+    margin: 3% auto 2% auto;
+}
+
+main > #contact form input, main > #contact form select, main > #contact form textarea{
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main > #contact form textarea{
+    resize: none;
+}
+
+.form-submit{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.form-input-layout{
+    display: grid;
+    grid-template-areas: "one two" "three four" "five five" "six six";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 4.5fr;
+    row-gap: 5%;
+    column-gap: 5%;
+    height: 100%;
+}
+
+.form-input-layout > div > * {
+    width: 100%;
+}
+
+.form-input-layout > :nth-of-type(1){
+    grid-area: one;
+}
+
+.form-input-layout > :nth-of-type(2){
+    grid-area: two;
+}
+
+.form-input-layout > :nth-of-type(3){
+    grid-area: three;
+}
+
+.form-input-layout > :nth-of-type(4){
+    grid-area: four;
+}
+
+.form-input-layout > :nth-of-type(5){
+    grid-area: five;
+}
+
+.form-input-layout > :nth-of-type(6){
+    grid-area: six;
+}
+
+footer{
+    background-color: #F5FCFF;
+    padding: 1% 4%;
+}
+
+footer > div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    gap: 5%;
+}
+
+footer > div:nth-of-type(1) > div:nth-of-type(2){
+    width: 7.5%;
+    text-align: end;
+}
+
+footer > div:nth-of-type(1) > div:nth-of-type(2) > img{
+    margin-left: 8%;
+    width: 20px;
+    max-height: 20px;
+}
+
+footer > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1){
+    width: 15px;
+}
+
+.footer__nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 2%;
+}
+
+.footer__nav a{
+    margin: 0% 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__nav a:visited{
+    color: inherit;
+}
+
+.footer__nav a:hover{
+    color: #5E3BEE;
+    cursor: pointer;
+}
+
+footer > div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+footer > div:nth-of-type(2) > div{
+    display: flex;
+    white-space: nowrap;
+    justify-content: end;
+    width: 30%;
+    gap: 5%;
+}
+
+@media only screen and (max-width: 992px){
+
+    header{
+        flex-direction: column;
+        padding: 10% 4%;
+        gap: 50px;
+    }
+
+    main > #home{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    main > #home > div > p{
+        margin: auto;
+    }
+
+    main > #expertise{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    main > #expertise > div{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main > #expertise > h3{
+        margin-top: 10%;
+    }
+
+    main > #expertise > div{
+        width: 40%;
+        margin-top: 20%;
+    }
+
+    main > #expertise > div > div p{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    main > #aboutme{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        align-items: center;
+        padding-top: 1%;
+    }
+
+    main > #aboutme > img{
+        margin-top: 8%;
+    }
+
+    main > #aboutme > div{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main > #portfolio > div:nth-of-type(1){
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    main > #portfolio > div:nth-of-type(2){
+        flex-direction: column;
+        gap: 80px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    main > #portfolio > div:nth-of-type(2) > div{
+        width: 60%;
+    }
+
+    main > #testimonials{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main > #testimonials h3{
+        margin-top: 10%;
+    }
+
+    main > #testimonials > div{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main > #testimonials > div > div{
+        width: 60%;
+    }
+
+    main > #contact > div:nth-of-type(1){
+        margin-bottom: 10%;
+    }
+    main > #contact h3{
+        margin-top: 10%;
+    }
+
+    main > #contact form button{
+        margin-top: 10%;
+    }
+
+    .form-input-layout{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer__nav{
+        flex-wrap: wrap;
+        white-space: normal;
+        gap: 0%;
+    }
+
+    footer > div:nth-of-type(1){
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer > div:nth-of-type(1) > div:nth-of-type(2){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer > div:nth-of-type(2){
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > div:nth-of-type(2) > div{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
