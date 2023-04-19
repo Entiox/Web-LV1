@@ -523,7 +523,6 @@ footer > div:nth-of-type(2) > div{
     .footer__nav{
         flex-wrap: wrap;
         white-space: normal;
-        gap: 0%;
     }
 
     footer > div:nth-of-type(1){
@@ -541,13 +540,12 @@ footer > div:nth-of-type(2) > div{
     footer > div:nth-of-type(2){
         flex-direction: column;
         gap: 50px;
-        justify-content: center;
         align-items: center;
     }
 
     footer > div:nth-of-type(2) > div{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 }
