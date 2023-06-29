@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: https://lv1-xtm5.onrender.com/
+### LINK: https://web-lv1-33z2.onrender.com/
 
 <hr />
 
